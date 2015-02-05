@@ -21,6 +21,8 @@
 		859B1C341A775E3C0047605D /* felt3c.png in Resources */ = {isa = PBXBuildFile; fileRef = 859B1C321A775E3C0047605D /* felt3c.png */; };
 		859B1C361A7760E10047605D /* felt3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 859B1C351A7760E10047605D /* felt3d.png */; };
 		85C353AB1A745B460004B69C /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C353AA1A745B460004B69C /* Money.swift */; };
+		85C6CB191A83554000F90CDF /* icon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C6CB181A83554000F90CDF /* icon72x72@2x.png */; };
+		85C6CB1B1A8355D200F90CDF /* Opener1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C6CB1A1A8355D200F90CDF /* Opener1.png */; };
 		85D607181A76D84200EEDBA9 /* blackJack_main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85D607031A76D84200EEDBA9 /* blackJack_main.jpg */; };
 		85D607191A76D84200EEDBA9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607051A76D84200EEDBA9 /* 1.png */; };
 		85D6071A1A76D84200EEDBA9 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607061A76D84200EEDBA9 /* 10.png */; };
@@ -37,7 +39,6 @@
 		85D607251A76D84200EEDBA9 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607111A76D84200EEDBA9 /* 8.png */; };
 		85D607261A76D84200EEDBA9 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607121A76D84200EEDBA9 /* 9.png */; };
 		85D607271A76D84200EEDBA9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607131A76D84200EEDBA9 /* back.png */; };
-		85D607281A76D84200EEDBA9 /* icon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607141A76D84200EEDBA9 /* icon72x72@2x.png */; };
 		85D607291A76D84200EEDBA9 /* loser.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607151A76D84200EEDBA9 /* loser.png */; };
 		85D6072A1A76D84200EEDBA9 /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607161A76D84200EEDBA9 /* push.png */; };
 		85D6072B1A76D84200EEDBA9 /* winner.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D607171A76D84200EEDBA9 /* winner.png */; };
@@ -78,6 +79,8 @@
 		859B1C321A775E3C0047605D /* felt3c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = felt3c.png; sourceTree = "<group>"; };
 		859B1C351A7760E10047605D /* felt3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = felt3d.png; sourceTree = "<group>"; };
 		85C353AA1A745B460004B69C /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		85C6CB181A83554000F90CDF /* icon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon72x72@2x.png"; sourceTree = "<group>"; };
+		85C6CB1A1A8355D200F90CDF /* Opener1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opener1.png; sourceTree = "<group>"; };
 		85D607031A76D84200EEDBA9 /* blackJack_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackJack_main.jpg; sourceTree = "<group>"; };
 		85D607051A76D84200EEDBA9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		85D607061A76D84200EEDBA9 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
@@ -94,7 +97,6 @@
 		85D607111A76D84200EEDBA9 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
 		85D607121A76D84200EEDBA9 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
 		85D607131A76D84200EEDBA9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		85D607141A76D84200EEDBA9 /* icon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon72x72@2x.png"; sourceTree = "<group>"; };
 		85D607151A76D84200EEDBA9 /* loser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loser.png; sourceTree = "<group>"; };
 		85D607161A76D84200EEDBA9 /* push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push.png; sourceTree = "<group>"; };
 		85D607171A76D84200EEDBA9 /* winner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winner.png; sourceTree = "<group>"; };
@@ -189,11 +191,12 @@
 		85D607021A76D84200EEDBA9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				85C6CB1A1A8355D200F90CDF /* Opener1.png */,
 				85D607031A76D84200EEDBA9 /* blackJack_main.jpg */,
 				85D607041A76D84200EEDBA9 /* Cards */,
-				85D607141A76D84200EEDBA9 /* icon72x72@2x.png */,
 				85D6072E1A76DF5700EEDBA9 /* felt2.png */,
 				859B1C311A775E3C0047605D /* felt3b.png */,
+				85C6CB181A83554000F90CDF /* icon72x72@2x.png */,
 				859B1C321A775E3C0047605D /* felt3c.png */,
 				859B1C351A7760E10047605D /* felt3d.png */,
 				85D607301A76E1C500EEDBA9 /* felt3.png */,
@@ -312,11 +315,11 @@
 				85D6071F1A76D84200EEDBA9 /* 2.png in Resources */,
 				859B1C331A775E3C0047605D /* felt3b.png in Resources */,
 				85D607291A76D84200EEDBA9 /* loser.png in Resources */,
+				85C6CB191A83554000F90CDF /* icon72x72@2x.png in Resources */,
 				85D6071E1A76D84200EEDBA9 /* 14.png in Resources */,
 				85D6072A1A76D84200EEDBA9 /* push.png in Resources */,
 				7C8628661A71F5C0004AAD02 /* Main.storyboard in Resources */,
 				85D607261A76D84200EEDBA9 /* 9.png in Resources */,
-				85D607281A76D84200EEDBA9 /* icon72x72@2x.png in Resources */,
 				85D607211A76D84200EEDBA9 /* 4.png in Resources */,
 				85D607201A76D84200EEDBA9 /* 3.png in Resources */,
 				7C86286B1A71F5C0004AAD02 /* LaunchScreen.xib in Resources */,
@@ -333,6 +336,7 @@
 				85D607221A76D84200EEDBA9 /* 5.png in Resources */,
 				85D607351A76FFC700EEDBA9 /* felt5.png in Resources */,
 				859B1C341A775E3C0047605D /* felt3c.png in Resources */,
+				85C6CB1B1A8355D200F90CDF /* Opener1.png in Resources */,
 				85D607311A76E1C500EEDBA9 /* felt3.png in Resources */,
 				85D607331A76EE9700EEDBA9 /* felt4.png in Resources */,
 				85D6071B1A76D84200EEDBA9 /* 11.png in Resources */,

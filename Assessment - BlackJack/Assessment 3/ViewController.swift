@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var playAgain: UIView!
     @IBOutlet weak var add25: UIView!
     @IBOutlet weak var add50: UIView!
-    @IBOutlet weak var add100: UIView!
     @IBOutlet weak var add250: UIView!
+    @IBOutlet weak var add500: UIView!
     @IBOutlet weak var add1k: UIView!
     @IBOutlet weak var betText: UITextField!
     @IBOutlet weak var walletText: UITextField!
@@ -97,10 +97,10 @@ class ViewController: UIViewController {
         self.add25.userInteractionEnabled = true
         self.add50.hidden = false
         self.add50.userInteractionEnabled = true
-        self.add100.hidden = false
-        self.add100.userInteractionEnabled = true
         self.add250.hidden = false
         self.add250.userInteractionEnabled = true
+        self.add500.hidden = false
+        self.add500.userInteractionEnabled = true
         self.add1k.hidden = false
         self.add1k.userInteractionEnabled = true
         self.wallettText.text = "Total: $\(self.wallet)"
@@ -133,19 +133,6 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func add100(sender: UITapGestureRecognizer) {
-        if (self.bet + 100) > self.wallet {
-            self.betText.text = "Sorry, you don't have enough money for that."
-        } else {
-            self.bet += 100
-            self.clearBet.hidden = false
-            self.clearBet.userInteractionEnabled = true
-            self.felt.image = UIImage(named:"felt4")
-            self.betText.text = "Your bet is $\(self.bet). Click on the chips to START."
-        println("Add $100 to bet")
-        }
-    }
-    
     @IBAction func add250(sender: UITapGestureRecognizer) {
         if (self.bet + 250) > self.wallet {
             self.betText.text = "Sorry, you don't have enough money for that."
@@ -156,6 +143,18 @@ class ViewController: UIViewController {
             self.felt.image = UIImage(named:"felt4")
             self.betText.text = "Your bet is $\(self.bet). Click on the chips to START."
             println("Add $250 to bet")
+        }
+    }    
+    @IBAction func add500(sender: UITapGestureRecognizer) {
+        if (self.bet + 500) > self.wallet {
+            self.betText.text = "Sorry, you don't have enough money for that."
+        } else {
+            self.bet += 500
+            self.clearBet.hidden = false
+            self.clearBet.userInteractionEnabled = true
+            self.felt.image = UIImage(named:"felt4")
+            self.betText.text = "Your bet is $\(self.bet). Click on the chips to START."
+            println("Add $500 to bet")
         }
     }
     
@@ -217,16 +216,18 @@ class ViewController: UIViewController {
         self.add25.userInteractionEnabled = false
         self.add50.hidden = true
         self.add50.userInteractionEnabled = false
-        self.add100.hidden = true
-        self.add100.userInteractionEnabled = false
         self.add250.hidden = true
         self.add250.userInteractionEnabled = false
+        self.add500.hidden = true
+        self.add500.userInteractionEnabled = false
         self.add1k.hidden = true
         self.add1k.userInteractionEnabled = false
         self.startGameView.hidden = true
         self.startGameView.userInteractionEnabled = false
         self.clearBet.hidden = true
         self.clearBet.userInteractionEnabled = false
+        self.wallettText.hidden = true
+        self.wallettText.userInteractionEnabled = false
         println("New game")
     }
   
@@ -431,10 +432,10 @@ class ViewController: UIViewController {
             self.add25.userInteractionEnabled = true
             self.add50.hidden = false
             self.add50.userInteractionEnabled = true
-            self.add100.hidden = false
-            self.add100.userInteractionEnabled = true
             self.add250.hidden = false
             self.add250.userInteractionEnabled = true
+            self.add500.hidden = false
+            self.add500.userInteractionEnabled = true
             self.add1k.hidden = false
             self.add1k.userInteractionEnabled = true
             changeCardsBack()
@@ -490,6 +491,8 @@ class ViewController: UIViewController {
         self.table.userInteractionEnabled = false
         self.swipeView.hidden = true
         self.swipeView.userInteractionEnabled = false
+        self.wallettText.hidden = false
+        self.wallettText.userInteractionEnabled = true
     }
     
     func playerWon() {
