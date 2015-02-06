@@ -139,16 +139,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="6" y="429" width="308" height="30"/>
-                                </variation>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Total: " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EMO-sQ-prS">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="33" y="128" width="129" height="30"/>
+                                    <rect key="frame" x="6" y="439" width="308" height="30"/>
                                 </variation>
                             </textField>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZq-OW-Rka" userLabel="resultText">
@@ -370,13 +361,21 @@
                                     <outletCollection property="gestureRecognizers" destination="Usu-Ba-AYO" appends="YES" id="hTg-mL-Bbg"/>
                                 </connections>
                             </view>
+                            <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Total: " minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EMO-sQ-prS">
+                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="22" y="153" width="129" height="30"/>
+                                </variation>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="zmJ-8U-siC"/>
                                 <exclude reference="hgb-wv-TQb"/>
-                                <exclude reference="EMO-sQ-prS"/>
                                 <exclude reference="KZq-OW-Rka"/>
                                 <exclude reference="iNB-1F-Xld"/>
                                 <exclude reference="LiH-Q5-z6m"/>
@@ -393,13 +392,13 @@
                                 <exclude reference="I92-35-5ik"/>
                                 <exclude reference="nru-RS-QfV"/>
                                 <exclude reference="rjv-Q3-W1R"/>
+                                <exclude reference="EMO-sQ-prS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="zmJ-8U-siC"/>
                                 <include reference="hgb-wv-TQb"/>
-                                <include reference="EMO-sQ-prS"/>
                                 <include reference="KZq-OW-Rka"/>
                                 <include reference="iNB-1F-Xld"/>
                                 <include reference="LiH-Q5-z6m"/>
@@ -416,6 +415,7 @@
                                 <include reference="I92-35-5ik"/>
                                 <include reference="nru-RS-QfV"/>
                                 <include reference="rjv-Q3-W1R"/>
+                                <include reference="EMO-sQ-prS"/>
                             </mask>
                         </variation>
                     </view>
@@ -523,6 +523,6 @@
     <resources>
         <image name="back.png" width="71" height="96"/>
         <image name="blackJack_main.jpg" width="642" height="310"/>
-        <image name="felt2.png" width="480" height="719"/>
+        <image name="felt2.png" width="288" height="480"/>
     </resources>
 </document>
